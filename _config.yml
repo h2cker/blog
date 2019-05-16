@@ -1,62 +1,57 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title: Stack Problems
+description: My Personal Stack Problems
+author: Agus Makmun
+github: https://github.com/agusmakmun
+about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.jpg
 
-# Site settings
-title: Webjeda Thunder
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Thunder is a lightning fast responsive theme based on default Jekyll theme. It is minimal and free from JavaScript. It has a css file of size 5kb. 
-url: "http://webjeda.com" # the base hostname & protocol for your site
+enableTags: true
+tagarray: []
 
-baseurl: '/thunder'
-permalink: /:title/
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
 
-analytics: UA-83979019-1 
-disqus-shortname: webjeda-demo
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/agusmakmun"
 
-# Color schemes
-color-1: '#3B97D3'
-color-2: '#26B99A'
+share:
+  twitter_username: github.io
+  fb_appid: 1749788565247320
 
-# Author pictre 100x100 --> keep it inside img folder.
-author-image: 'author.jpg'
-author-name: 'John Doe' 
-author-about: 'John Doe should be described in a very few words!' 
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
 
-# Build settings
+url: "https://agusmakmun.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
 markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
 
-sass:
-    style: compressed
-
-
-
-
-#compress.html
 compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  clippings: all
   comments: ["<!-- ", " -->"]
-  endings: [all]
+  endings: all
   ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-  
-  
-prose:
-  rooturl: ''
-  siteurl: 'http://prose.github.io/starter/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'images'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-    
-gems: [jekyll-seo-tag]
+    envs: ['development']
