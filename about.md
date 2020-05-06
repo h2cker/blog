@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Coding Dog!
+I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+
+
