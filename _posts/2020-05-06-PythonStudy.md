@@ -1,7 +1,7 @@
 **Python学习笔记**
 
-
-`print("hello") #输出使用print
+{% highlight ruby %}
+print("hello") #输出使用print
 
 name = "Mythacker is"
 print(name.title()) #.title()首字母大写
@@ -87,4 +87,4 @@ squares = []
 for value in range(1,11):
 	squares.append(value**2)
 print(squares) 
-`
+{% endhighlight %}
