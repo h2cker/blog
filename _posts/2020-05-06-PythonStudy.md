@@ -1,6 +1,6 @@
 **Python学习笔记**
 
-{% highlight ruby %}  
+```python
 print("hello") #输出使用print  
 
 name = "Mythacker is"  
@@ -88,3 +88,4 @@ for value in range(1,11):
 	squares.append(value**2)  
 print(squares)   
 {% endhighlight %}  
+```
