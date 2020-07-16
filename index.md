@@ -10,9 +10,9 @@ This is where I record my life.
 
 # Is Daunting
 
-To say little and perform much is the characteristic of great minds.  
+To say little and perform much is the characteristic of great minds. So  You???  
 
-So  You??? 
+
 
 
 
