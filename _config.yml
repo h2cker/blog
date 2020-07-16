@@ -6,9 +6,9 @@ header_pages:
   - index.md
   - about.md
   - link.md
-footer: 'follow us on <a href="https://403.sh/link">email to me</a>'
+footer: 'follow us on <a href="https://twitter.com/0xcnTeam">twitter</a>'
 
-style: light # dark (default) or light
+#style: light # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
