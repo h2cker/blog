@@ -1,7 +1,7 @@
 ---
-title: /peter
+title: /Link
 layout: page
-permalink: /peter
+permalink: /link
 ---
 
 # Peter principle

@@ -5,7 +5,7 @@
 header_pages:
   - index.md
   - about.md
-  - peter.md
+  - link.md
 footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 #style: light # dark (default) or light
