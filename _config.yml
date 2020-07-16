@@ -1,49 +1,15 @@
-title: 403 Team
-description: 403 Team
-author: Mythacker
-github: https://github.com/h2cker
-about: This Is The Blog Of The Mythacker
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+# Example Site settings
 
-enableTags: true
-tagarray: []
+#google_analytics: UA-NNNNNNNN-N
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+#header_pages:
+#  - index.md
+#  - about.md
 
-social:
-    - icon: fa-github
-      link: "https://github.com/h2cker"
+#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
+#style: light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
 
-urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
-
-url: "https://h2cker.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
-markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+plugins:
+  - jekyll-seo-tag
