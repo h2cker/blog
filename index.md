@@ -1,5 +1,5 @@
 ---
-title: Welcome To 403
+title: /Home
 layout: home
 permalink: /
 ---
