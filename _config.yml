@@ -14,3 +14,5 @@ style: dark  # dark (default) or light or hacker
 plugins:
   - jekyll-seo-tag
 markdown: Redcarpet
+redcarpet:
+  extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
