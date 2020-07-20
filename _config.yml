@@ -13,3 +13,4 @@ style: dark  # dark (default) or light or hacker
 
 plugins:
   - jekyll-seo-tag
+markdown: Redcarpet
