@@ -16,8 +16,8 @@ Site name: xx
 Site url: xx.com
 
 ## Advice
-A person who knows how to learn is better than anyone else.   Thanks
+A person who knows how to learn is better than anyone else. 
 
 ## Link List
 
-[403 Team](https://403.sh).
+[403 Team](https://403.icu).
