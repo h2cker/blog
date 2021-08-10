@@ -1,8 +1,8 @@
 # Site settings
 title: "gjuniioor"
 bye_message: "Thx!"
-baseurl: "/"
-url: "https://gjuniioor.github.io"
+baseurl: "/baseurl"
+url: "https://h2cker.github.io"
 disqus: gjuniioor
 
 # Header settings
